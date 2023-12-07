@@ -3,6 +3,7 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import "./footer.css";
 
 function Footer() {
     return (
@@ -63,6 +64,9 @@ function Footer() {
                     </a>
                 </div>
             </div>
+            <div>
+          
+            </div>
 
 
             <div className='col-4 d-inline-block text-left'>
@@ -76,11 +80,17 @@ function Footer() {
                 <img width={'70px'} style={{ paddingBottom:'20px', marginRight: '10px' }}
                     src='https://constant.myntassets.com/web/assets/img/ef05d6ec-950a-4d01-bbfa-e8e5af80ffe31574602902427-30days.png' alt='original' />
                 <p className='d-inline-block col-7' style={{ textAlign: 'left', fontSize: '20px' }}><b>Return within 30days</b> of receiving your order</p>
-
-            </div>
-
+                <div>
+                    
+                <div className='top'><p >copyright@<b>supriyo</b></p></div> 
+                    </div>          
+                
+                 </div>
+           
             <hr />
+            
         </div>
+
     )
 }
 
